@@ -1,0 +1,29 @@
+{
+  "name": "jbgqlbe",
+  "version": "1.0.0",
+  "description": "JamBox GQL Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacklinton/JB-Server.git"
+  },
+  "author": "Jack Linton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacklinton/JB-Server/issues"
+  },
+  "homepage": "https://github.com/jacklinton/JB-Server#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "fetch": "^1.1.0",
+    "graphql": "^0.9.3",
+    "graphql-server-express": "^0.7.1",
+    "graphql-tools": "^0.11.0",
+    "mongoose": "^4.9.5",
+    "node-fetch": "^1.6.3"
+  }
+}

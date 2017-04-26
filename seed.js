@@ -12,15 +12,15 @@ var Item = fetch(scrape)
 
     if (identifier.startsWith('gd') || identifier.startsWith('GratefulDead') || identifier.startsWith('gratefuldead') ){
       url = "https://archive.org/metadata/" + identifier;
-      return url;
+        return url;
       } else {
         return "https://archive.org/metadata/";
       }
 
-    })
-  .then( )
-  }));
-
+    }))
+  .then( (shows) => {
+    console.log(shows);
+  });
 
 
 

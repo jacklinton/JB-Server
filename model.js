@@ -1,12 +1,16 @@
-import Mongoose from 'mongoose';
+import mongoose from 'mongoose';
+// Add moment for time/date conversions
 
-const ArtistSchema = Mongoose.schema({
-  id: Int!
-  name: String
-  shows: // [ populate with items with shows collection ]
+const Schema = mongoose.Schema;
+
+
+const ArtistSchema = Schema({
+  id: Int!,
+  name: String,
+  shows: [Schema.Types.ObjectId],
 });
 
-const ShowSchema = Mongoose.schema({
+const ShowSchema = Schema({
   id: String!,
   title: String,
   name: String,
@@ -15,7 +19,7 @@ const ShowSchema = Mongoose.schema({
   date: String,
   year: String,
   addedDate: String,
-  uplaoder: String,
+  uploader: String,
   venue: String,
   coverage: String,
   taper: String,
@@ -24,26 +28,26 @@ const ShowSchema = Mongoose.schema({
   notes: String,
   source: String,
   sbd: Boolean,
-  songs: //[ populate with items from song collection ],
+  songs: [Schema.Types.ObjectId],
   updateddate: String,
 });
 
-const SongSchema = Mongoose.schema({
+const SongSchema = Schema({
   id: String!,
-  artist: Artist,
+  artist: // populate with artist,
   name: String,
   title: String,
   creator: String,
   track: String,
-  album: // populate with items from show collection
+  album: Schema.Types.ObjectId,
   bitrate: String,
   length: String,
   src: String,
   image: String,
 });
 
-const ArtistModel = Mongoose.model('Artist', ArtistSchema);
-const ShowModel = Mongoose.model('Show', ShowSchema);
-const SongModel = Mongoose.model('Song', SongSchema);
+const ArtistModel = mongoose.model('Artist', ArtistSchema);
+const ShowModel = mongoose.model('Show', ShowSchema);
+const SongModel = mongoose.model('Song', SongSchema);
 
 export default { ArtistModel, ShowModel, SongModel };

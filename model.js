@@ -5,13 +5,12 @@ const Schema = mongoose.Schema;
 
 
 const ArtistSchema = Schema({
-  id: Int!,
   name: String,
   shows: [Schema.Types.ObjectId],
 });
 
 const ShowSchema = Schema({
-  id: String!,
+  identifier: String!,
   title: String,
   name: String,
   creator: String,
@@ -33,12 +32,11 @@ const ShowSchema = Schema({
 });
 
 const SongSchema = Schema({
-  id: String!,
-  artist: // populate with artist,
+  artist: Schema.Types.ObjectId,
   name: String,
   title: String,
   creator: String,
-  track: String,
+  track: Int,
   album: Schema.Types.ObjectId,
   bitrate: String,
   length: String,

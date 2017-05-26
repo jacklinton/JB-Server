@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -w",
-    "start": "nodemon --exec babel-node lib/server.js",
+    "start": "babel-node lib/server.js",
     "webpack": "webpack -wd"
   },
   "babel": {

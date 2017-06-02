@@ -85,8 +85,8 @@
       <file leaf-file-name="GetArtistList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetArtistList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -385,12 +385,12 @@
       <workItem from="1495909071973" duration="4168000" />
       <workItem from="1496198847325" duration="488000" />
       <workItem from="1496351497650" duration="187000" />
-      <workItem from="1496351831487" duration="7107000" />
+      <workItem from="1496351831487" duration="7654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86779000" />
+    <option name="totallyTimeSpent" value="87326000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -784,8 +784,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetArtistList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
         </state>
       </provider>

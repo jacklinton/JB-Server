@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bc85d7-457b-4eeb-9bc3-475fb804c28e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/seed/archive/GetMetadata.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/seed/archive/GetShowInfo.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/seed/archive/FilterShows.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/seed/Seed.js" afterPath="$PROJECT_DIR$/lib/seed/Seed.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/seed/archive/GetFilesList.js" afterPath="$PROJECT_DIR$/lib/seed/archive/GetFilesList.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/seed/archive/GetMetadata.js" afterPath="$PROJECT_DIR$/lib/seed/archive/GetMetadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/seed/archive/GetShowInfo.js" afterPath="$PROJECT_DIR$/lib/seed/archive/GetShowInfo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,8 +70,8 @@
       <file leaf-file-name="GetFilesList.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetFilesList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="315">
+              <caret line="21" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -83,8 +80,8 @@
       <file leaf-file-name="GetMetadata.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetMetadata.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -93,8 +90,8 @@
       <file leaf-file-name="GetShowInfo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetShowInfo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -430,12 +427,12 @@
       <workItem from="1496351831487" duration="26054000" />
       <workItem from="1497048160382" duration="2227000" />
       <workItem from="1497198641014" duration="562000" />
-      <workItem from="1497202044078" duration="4447000" />
+      <workItem from="1497202044078" duration="5540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112962000" />
+    <option name="totallyTimeSpent" value="114055000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,24 +818,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetShowInfo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetMetadata.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="12" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/seed/archive/GetFilesList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="315">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="21" selection-end-column="3" />
           <folding />
         </state>
       </provider>
